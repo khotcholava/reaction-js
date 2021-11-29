@@ -235,15 +235,9 @@ function useState(initial) {
   return [hook.state, setState];
 }
 
-// function useEffect(callback, deps) {
-//   const hooks = wipFiber.hooks;
-//   let oldDeps = hooks[index];
-//   let hasChanged = true;
-//
-//   if(oldDeps) {
-//     hasChanged
-//   }
-// }
+function useEffect(callback, deps) {
+
+}
 
 function updateHostComponent(fiber) {
   if (!fiber.dom) {
